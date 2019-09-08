@@ -1,0 +1,14 @@
+@import "./variables.scss";
+
+/**
+ * Import core platform styles (after imported bundle variables.)
+ * 
+ * Example (if bundle/package name has a scope):
+ *  - `@import "../../../../@boilerplatejs/core/themes/default/components.scss";`
+
+ * Example (if bundle/package name does not have a scope):
+ *  - `@import "../../../@boilerplatejs/core/themes/default/components.scss";`
+ */
+
+@import "./typography.scss";
+@import "./components.scss";
