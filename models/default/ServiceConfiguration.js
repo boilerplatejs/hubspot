@@ -23,6 +23,8 @@ export default class extends Model {
      */
 
     // Define attrbutes here:
+    apiKey = DataTypes.STRING;
+    owner = DataTypes.INTEGER;
 
 
     /**
